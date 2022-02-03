@@ -38,7 +38,6 @@ public class Main {
             // 初始化字符输入输出流
             reader = new FileReader("/Users/admin/Downloads/人人都是程序员.txt");
             writer = new FileWriter("/Users/admin/Downloads/人人都是程序员副本.txt");
-            writer.flush();
             // 缓冲区
             char[] buf = new char[100];
             // 记录每次读取的字符数
